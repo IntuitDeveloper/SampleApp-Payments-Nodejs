@@ -1,0 +1,25 @@
+{
+  "name": "SampleApp-Payments-Nodejs",
+  "version": "0.0.1",
+  "description": "A sample Nodejs application to demonstrate Inutit Payment API's",
+  "scripts": {
+    "start": "node app",
+    "test": "./node_modules/mocha/bin/mocha test/**/*-test.js --reporter spec"
+  },
+  "author": "anil_kumar3",
+  "license": "MIT",
+  "homepage": "https://github.com/IntuitDeveloper/SampleApp-Payments-nodejs",
+  "dependencies": {
+    "body-parser": "latest",
+    "dotenv": "^5.0.1",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "request": "^2.78.0",
+    "save": "^2.3.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "ngrok": "^2.2.9"
+  }
+}

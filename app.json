@@ -1,0 +1,38 @@
+{
+  "name": "SampleApp-Payments-Nodejs",
+  "description": "A sample Nodejs application to demonstrate Inutit Payment API's",
+  "repository": "https://github.com/IntuitDeveloper/SampleApp-Payments-nodejs.git",
+  "keywords": [
+    "Intuit",
+    "IntuitPaymentAPI",
+    "IntuitDev"
+  ],
+  "scripts": {
+    "postdeploy": "npm install"
+  },
+  "formation": [
+    {
+      "process": "web",
+      "quantity": 1
+    }
+  ],
+  "website": "https://developer.intuit.com",
+  "env": {
+    "PORT": {
+      "description": "The port on which you want to run the app ",
+      "required": false
+    },
+    "TOKEN_URL": {
+      "description": "The URL to get the tokens",
+      "required": true
+    },
+    "CHARGE_URL": {
+      "description": "The URL to create Charge'",
+      "required": true
+    },
+    "ACCESS_TOKEN": {
+      "description": "AccessToken from the OAuthPlayground",
+      "required": true
+    }
+  }
+}
