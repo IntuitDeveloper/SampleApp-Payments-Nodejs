@@ -117,6 +117,7 @@
 
                 var jsonBody = {};
                 jsonBody.amount = $('#amount1').val();
+                jsonBody.capture = false;
                 jsonBody.currency = $('#currency').val();
                 jsonBody.token = $('#token').val();
                 jsonBody.context = {};

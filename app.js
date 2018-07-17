@@ -70,7 +70,7 @@ app.post('/captureCharge', urlencodedParser, function(req,res) {
 
 
 // Start server on HTTP
-const server = app.listen(process.env.PORT || 8000, () => {
+const server = app.listen(process.env.PORT || 8001, () => {
     console.log(`💻 Server listening on port ${server.address().port}`);
     if(!ngrok){
         console.log(`💳  See the Sample App in your browser: ` + 'http://localhost:' + `${server.address().port}`);

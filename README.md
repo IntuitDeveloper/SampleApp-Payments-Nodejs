@@ -26,6 +26,7 @@ $ cd SampleApp-Payments-Nodejs
 $ npm install
 ```
 
+
 ## Pre-requisites
 
 ### Create an App
@@ -101,6 +102,10 @@ If you already have an Heroku account, you can use [Heroku One-Button Deployment
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+
+Unable to follow ? Please use the link below to follow the step by step procedure to get started with this sample:
+
+[![Getting Started](public/images/App.png)](https://www.youtube.com/watch?v=Q4pSndbcY_E&feature=youtu.be) 
 
 
 ## Links
