@@ -1,5 +1,4 @@
-
-[![Sample Banner](public/images/Sample.png)][ss1]
+[![Rate your Sample](views/Ratesample.png)][ss1][![Yes](views/Thumbup.png)][ss2][![No](views/Thumbdown.png)][ss3]
 
 Intuit Payment Sample - NodeJS
 ==========================================================
@@ -128,5 +127,6 @@ Any reports of problems, comments or suggestions are most welcome.
 
 Please report these on [Issue Tracker in Github](https://github.com/IntuitDeveloper/SampleApp-Payments-Nodejs/issues).
 
-
-[ss1]: https://help.developer.intuit.com/s/samplefeedback?cid=9010&repoName=SampleApp-Payments-Nodejs
+[ss1]: #
+[ss2]: https://customersurveys.intuit.com/jfe/form/SV_9LWgJBcyy3NAwHc?check=Yes&checkpoint=SampleApp-Payments-Nodejs&pageUrl=github
+[ss3]: https://customersurveys.intuit.com/jfe/form/SV_9LWgJBcyy3NAwHc?check=No&checkpoint=SampleApp-Payments-Nodejs&pageUrl=github
